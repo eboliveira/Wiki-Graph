@@ -12,6 +12,7 @@ for link in links_1nd_degree:
         links_2nd_degree = wikipedia.WikipediaPage(link).links
         link = link.replace(" ", "_")
         for links_2 in links_2nd_degree:
+            links_2 = links_2.replace(" ", "_")
             db[link].insert_one({'name':links_2})
         print link + " collect"
     except:
