@@ -1,2 +1,2 @@
 # Wiki-Graph
-Wikipedia Graph's developed for discipline Teoria dos Grafos.
+A Wikipedia Graph's mounted to analyze the correlation between pages of Wikipedia.
